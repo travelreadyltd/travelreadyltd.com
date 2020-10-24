@@ -13,10 +13,12 @@ body{
 
 
 .context {
-    width: 100%;
-    position: absolute;
-    top:50vh;
-    
+    padding-top: 5em;
+    background: #2d6a4f; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .context h1{
@@ -26,17 +28,16 @@ body{
 }
 
 .contact{
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    top:60vh;
+    padding-top: 2.5em;
+    background: #2d6a4f; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .contact a{
     text-align: center;
-    margin:0 auto;
-    padding:1em;
-    display:inline-block;
     color: #fff;
     font-size: 1.5em;
     text-decoration: none;
